@@ -38,4 +38,4 @@ class ProfilMesage(models.Model):
         verbose_name = 'Profil Mesajı'
 
     def __str__(self):
-        return str(self.user_profil)
+        return str(self.profil)
